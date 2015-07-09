@@ -137,6 +137,9 @@ public class Board {
       b.generate();
       b.print();
     }
+    
+    System.out.println("game over");
+    b.close();  
 
   }
 
